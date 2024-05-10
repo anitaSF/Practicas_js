@@ -3,9 +3,13 @@ console.log('Pokeapi!');
 const pokeList = document.querySelector('#pokedex');
 console.log(pokeList);
 
+function createPoke(pokemon) {
+
+}
+
 async function getPoke(id) {
     try {
-        const response = await fetch('https://pokeapi.co/api/v2/pokemon/' + id);
+        const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`);
         const data = await response.json();
         console.log(data);
 
