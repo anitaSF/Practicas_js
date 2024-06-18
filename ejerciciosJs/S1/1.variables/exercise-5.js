@@ -1,4 +1,4 @@
-console.log('holaaa');
+console.log('Exercise S1 - 1.5');
 
 let firstName = 'Jon';
 

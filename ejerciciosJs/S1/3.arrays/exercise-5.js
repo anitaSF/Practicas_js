@@ -1,3 +1,5 @@
+console.log('Exercise S1 - 3.5');
+
 const RickAndMortyCharacters = ["Rick", "Beth", "Jerry", "Morty", "Summer", "Lapiz Lopez"];
 
 RickAndMortyCharacters.pop();
